@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bitter', serif;
+}
+
+/*Aquí inician estilos de la navbar*/
+
+.navbar-section{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(5deg, #21364b 0, #26354b 3.85%, #2b344b 7.69%, #30324a 11.54%, #353149 15.38%, #393047 19.23%, #3c2f45 23.08%, #402e43 26.92%, #432d40 30.77%, #452c3d 34.62%, #472c3a 38.46%, #492b37 42.31%, #4a2b34 46.15%, #4b2b31 50%, #4b2b2e 53.85%, #4b2c2b 57.69%, #4b2c28 61.54%, #4a2d25 65.38%, #482e23 69.23%, #462f21 73.08%, #44301f 76.92%, #42311e 80.77%, #40321d 84.62%, #3d331c 88.46%, #3a341c 92.31%, #37351d 96.15%, #34361e 100%);;
+}
+
+#navbar{
+    background: linear-gradient(5deg, #21364b 0, #26354b 3.85%, #2b344b 7.69%, #30324a 11.54%, #353149 15.38%, #393047 19.23%, #3c2f45 23.08%, #402e43 26.92%, #432d40 30.77%, #452c3d 34.62%, #472c3a 38.46%, #492b37 42.31%, #4a2b34 46.15%, #4b2b31 50%, #4b2b2e 53.85%, #4b2c2b 57.69%, #4b2c28 61.54%, #4a2d25 65.38%, #482e23 69.23%, #462f21 73.08%, #44301f 76.92%, #42311e 80.77%, #40321d 84.62%, #3d331c 88.46%, #3a341c 92.31%, #37351d 96.15%, #34361e 100%);;
+}
+
+.navbar-nav{
+    margin-left: 100px;
+    margin-top: 6px;
+}
+
+.nav-item .nav-link{
+    margin-left: 10px;
+    font-weight: bold;
+    color: whitesmoke;
+    font-size: 16px;
+    text-shadow: 1px 1px 1px black;
+    letter-spacing: 2px;
+    transition: 0.5s ease;
+}
+
+.nav-item .nav-link:hover{
+    color: black;
+}
+
+/*background-image: radial-gradient(circle at 87.5% 12.5%, #590d61 0, #620058 5.56%, #69004e 11.11%, #6e0043 16.67%, #720039 22.22%, #74002e 27.78%, #740024 33.33%, #73001a 38.89%, #70000f 44.44%, #6d0000 50%, #690d00 55.56%, #641700 61.11%, #5e1f00 66.67%, #572500 72.22%, #502a00 77.78%, #482e00 83.33%, #403200 88.89%, #373500 94.44%, #2d3800 100%); código de gradiente bien bonito de atardecer oscuro*/
+
+/*Aquí inician estilos de Inicio*/
+#inicio{
+    width: 100%;
+    height: 91.5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 0;
+    background: linear-gradient(5deg, #004e38 0, #004e3e 3.85%, #004e44 7.69%, #004e4a 11.54%, #004e50 15.38%, #004e56 19.23%, #004e5b 23.08%, #004d60 26.92%, #004c64 30.77%, #004c68 34.62%, #004a6b 38.46%, #00496d 42.31%, #00486e 46.15%, #13466f 50%, #24446f 53.85%, #31426e 57.69%, #3b406c 61.54%, #443e69 65.38%, #4c3b66 69.23%, #543962 73.08%, #5a375e 76.92%, #5f3559 80.77%, #633353 84.62%, #67324e 88.46%, #693148 92.31%, #6b3042 96.15%, #6c303c 100%);
+}
+
+#inicio .img{
+    flex: 1 1 400px;
+}
+
+#inicio .img img{
+    width: 50%;
+    margin-left: 30px;
+}
+
+#inicio .contenido{
+    flex: 1 1 400px;
+    margin-left: 45px;
+}
+
+#inicio .contenido h2{
+    color: blue;
+    letter-spacing: 3px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#btncv{
+    background-color: transparent;
+    border: 2px solid greenyellow;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 130px;
+}
+
+/*Aquí inician estilos de SobreMi*/
+
+#sobremi{
+    width: 100%;
+    height: 91.5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 0;
+    background: linear-gradient(5deg, #485a38 0, #435b3b 3.85%, #3d5c3f 7.69%, #375c43 11.54%, #325d47 15.38%, #2b5d4c 19.23%, #255e51 23.08%, #1f5e55 26.92%, #185e5a 30.77%, #125e5f 34.62%, #0e5e63 38.46%, #0c5d68 42.31%, #0e5d6c 46.15%, #135c6f 50%, #1a5b72 53.85%, #225a74 57.69%, #2a5976 61.54%, #325877 65.38%, #3a5678 69.23%, #425577 73.08%, #495377 76.92%, #505175 80.77%, #575073 84.62%, #5d4e70 88.46%, #624c6d 92.31%, #674b6a 96.15%, #6c4965 100%);
+}
+
+#sobremi #Carousel{
+    flex: 1 1 400px;
+}
+
+#sobremi #Carousel img{
+    width: 50%;
+    margin-left: 30px;
+}
+
+#sobremi .humildemente{
+    flex: 1 1 400px;
+    margin-left: 45px;
+}
+
+#sobremi .humildemente {
+    color: black;
+    letter-spacing: 3px;
+    font-size: 20px;
+    font-weight: bold;
+} 
+
+/*Aquí inician estilos de CV*/
+
+#cv{
+    width: 100%;
+    height: 91.5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 0;
+    background: papayawhip
+}
+
+#cv .educacion{
+    flex: 1 1 400px;
+}
+
+#cv .educacion{
+    margin-left: 30px;
+} 
+
+#cv .experiencia{
+    flex: 1 1 400px;
+    margin-left: 45px;
+}
+
+#cv .educacion .experiencia {
+    color: black;
+    letter-spacing: 3px;
+    font-size: 20px;
+    font-weight: bold;
+} 
+
+/*Aquí inician estilos de Skills*/
+
+#skills{
+    background: blueviolet;
+}
+
+/*Aquí inician estilos de Portafolio*/
+
+#proyectos{
+    background: grey;
+}
+
+/*Aquí inician estilos de Contacto*/
+
+#contacto{
+    background-color: aquamarine;
+}
+
+/*Aquí inician estilos de Footer*/
+
+.rrss{
+    display: flex;
+    align-items: right;
+    margin-right: 20px;
+}
+
+
+.footer .rrss{
+    flex: 1 1 100px;
+}
+
+.footer .rrss img{
+    height: 100px;
+    width: 100px;
+    margin: 10px
+
+}
+
